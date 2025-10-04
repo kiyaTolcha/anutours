@@ -66,6 +66,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/activities/cultural/page.js"
     ],
+    "/activities/adventure/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/activities/adventure/page.js"
+    ],
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

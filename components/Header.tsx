@@ -19,17 +19,17 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+251 911 123 456</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>info@anututours.com</span>
+              <span>info@anututours.et</span>
             </div>
           </div>
           <div className="flex items-center space-x-2">
             <span>English</span>
             <span className="text-gray-300">|</span>
-            <span className="text-gray-300">Deutsch</span>
+            <span className="text-gray-300">አማርኛ</span>
           </div>
         </div>
       </div>

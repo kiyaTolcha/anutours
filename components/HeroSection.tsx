@@ -23,25 +23,25 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80")'
+          backgroundImage: 'url("https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")'
         }}
       ></div>
 
       <div className="relative container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fadeInUp">
-            Discover Amazing Adventures
+            Discover the Beauty of <span className="text-yellow-400">Ethiopia</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-100 animate-fadeInUp">
-            Experience unforgettable tours and adventures with expert guides and premium service
+            Explore the cradle of humanity with ancient history, vibrant culture, and breathtaking landscapes
           </p>
           
           {/* Search Form */}
           <div className="bg-white rounded-2xl p-6 shadow-2xl animate-slideInRight">
             <form onSubmit={handleSearch} className="space-y-4">
               <div className="text-gray-800 text-center mb-4">
-                <h3 className="text-2xl font-semibold">Where do you want to go?</h3>
-                <p className="text-gray-600">Discover over 200+ Experiences</p>
+                <h3 className="text-2xl font-semibold">Where do you want to explore in Ethiopia?</h3>
+                <p className="text-gray-600">Discover ancient kingdoms, natural wonders, and cultural treasures</p>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

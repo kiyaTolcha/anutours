@@ -5,36 +5,36 @@ export default function NationalParksPage() {
   const parks = [
     {
       id: 1,
-      name: "Serengeti National Park",
-      image: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
+      name: "Simien Mountains National Park",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       duration: "3-7 Days",
-      price: "$1,200",
+      price: "$450",
       rating: 4.9,
       reviews: 234,
-      description: "Experience the Great Migration and witness the Big Five in their natural habitat.",
-      highlights: ["Big Five Safari", "Great Migration", "Hot Air Balloon Safari", "Cultural Visits"]
+      description: "Explore Ethiopia's most spectacular mountain range, home to rare wildlife including the Gelada baboon and Walia ibex.",
+      highlights: ["Gelada Baboons", "Walia Ibex", "Mountain Trekking", "Scenic Views"]
     },
     {
       id: 2,
-      name: "Yellowstone National Park",
+      name: "Bale Mountains National Park",
       image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
       duration: "2-5 Days",
-      price: "$850",
+      price: "$380",
       rating: 4.8,
       reviews: 189,
-      description: "Explore geothermal wonders, wildlife, and stunning landscapes in America's first national park.",
-      highlights: ["Old Faithful Geyser", "Wildlife Viewing", "Hiking Trails", "Photography Tours"]
+      description: "Discover the Ethiopian wolf and mountain nyala in this high-altitude wilderness with stunning alpine landscapes.",
+      highlights: ["Ethiopian Wolf", "Mountain Nyala", "Alpine Meadows", "Hiking Trails"]
     },
     {
       id: 3,
-      name: "Banff National Park",
+      name: "Awash National Park",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       duration: "4-8 Days",
       price: "$1,100",
       rating: 4.9,
       reviews: 267,
-      description: "Discover pristine mountain landscapes, turquoise lakes, and abundant wildlife in the Canadian Rockies.",
-      highlights: ["Lake Louise", "Mountain Hiking", "Wildlife Safari", "Scenic Drives"]
+      description: "Explore Ethiopia's oldest national park with diverse wildlife, hot springs, and the spectacular Awash Falls.",
+      highlights: ["Awash Falls", "Hot Springs", "Wildlife Safari", "Bird Watching"]
     },
     {
       id: 4,
@@ -61,9 +61,9 @@ export default function NationalParksPage() {
           }}
         ></div>
         <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">National Parks Tours</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Ethiopia's National Parks</h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">
-            Explore the world's most breathtaking national parks with expert guides and unforgettable wildlife encounters
+            Discover Ethiopia's spectacular national parks, home to unique wildlife and breathtaking landscapes
           </p>
         </div>
       </section>
