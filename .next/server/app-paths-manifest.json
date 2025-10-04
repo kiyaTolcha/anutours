@@ -1,0 +1,8 @@
+{
+  "/destinations/adventure/page": "app/destinations/adventure/page.js",
+  "/tours/day-trips/page": "app/tours/day-trips/page.js",
+  "/tours/custom/page": "app/tours/custom/page.js",
+  "/activities/trekking/page": "app/activities/trekking/page.js",
+  "/activities/cultural/page": "app/activities/cultural/page.js",
+  "/contact/page": "app/contact/page.js"
+}
